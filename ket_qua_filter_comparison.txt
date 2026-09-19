@@ -1,0 +1,14 @@
+Query: Điều kiện để được đưa vào diện xét học bổng khuyến khích học tập là gì?
+Filter: {'audience': 'student'}
+
+Strategy: fixed; chunks=80
+  With filter: vallet-hoc-bong-sau-dai-hoc (relevant=False, answer=False), vimaru-hbkkht-tieu-chuan-sinh-vien (relevant=False, answer=False), vallet-hoc-bong-sau-dai-hoc (relevant=False, answer=False)
+  Without filter: vallet-hoc-bong-sau-dai-hoc (relevant=False, answer=False), vimaru-hbkkht-tieu-chuan-sinh-vien (relevant=False, answer=False), vallet-hoc-bong-sau-dai-hoc (relevant=False, answer=False)
+
+Strategy: sentence; chunks=90
+  With filter: vallet-hoc-bong-sau-dai-hoc (relevant=False, answer=False), hsb-hoc-bong-tan-sinh-vien-2026 (relevant=False, answer=False), ulis-hoc-bong-kt-2025-2026 (relevant=False, answer=False)
+  Without filter: vallet-hoc-bong-sau-dai-hoc (relevant=False, answer=False), hsb-hoc-bong-tan-sinh-vien-2026 (relevant=False, answer=False), ulis-hoc-bong-kt-2025-2026 (relevant=False, answer=False)
+
+Strategy: recursive; chunks=109
+  With filter: ueh-ke-hoach-xet-hoc-bong-2026 (relevant=False, answer=False), hsb-hoc-bong-tan-sinh-vien-2026 (relevant=False, answer=False), hsb-hoc-bong-tan-sinh-vien-2026 (relevant=False, answer=False)
+  Without filter: vimaru-hbkkht-quy-trinh-xet-duyet (relevant=False, answer=False), ueh-ke-hoach-xet-hoc-bong-2026 (relevant=False, answer=False), hsb-hoc-bong-tan-sinh-vien-2026 (relevant=False, answer=False)
